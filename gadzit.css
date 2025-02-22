@@ -44,6 +44,10 @@ header {
     padding: 8px 15px;
     border: none;
     cursor: pointer;
+    margin-left: 10px;
+}
+.search-btn:hover {
+    background: #0056b3;
 }
 
 .nav-links a {
@@ -72,6 +76,9 @@ footer {
     padding: 10px 15px;
     border: none;
     cursor: pointer;
+}
+.subscribe-btn:hover {
+    transform: scale(1.05);
 }
 
 /* Club Section */
@@ -124,5 +131,8 @@ footer {
     cursor: pointer;
     margin-top: auto; /* Pushes the button to the bottom */
     text-align: center;
+}
+.explore-btn:hover {
+    transform: scale(1.1);
 }
 
