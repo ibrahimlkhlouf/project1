@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #000;
+    color: #fff;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background: #111;
+}
+
+.logo img {
+    height: 50px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.category-select {
+    padding: 8px;
+    margin-right: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-bar input {
+    padding: 8px;
+    width: 300px;
+    border: none;
+    border-radius: 5px;
+}
+
+.search-btn {
+    background: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-links a {
+    color: white;
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.cart i {
+    color: #007BFF;
+}
+
+footer {
+    background: #111;
+    padding: 20px;
+    text-align: center;
+    background-attachment: fixed;
+}
+.newsletter {
+    background-attachment: fixed;
+}
+
+.subscribe-btn {
+    background: #007BFF;
+    color: white;
+    padding: 10px 15px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Club Section */
+.clubs {
+    text-align: center;
+    padding: 40px;
+}
+
+.club-grid {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.club-card {
+    background: #111;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+
+.club-card:hover {
+    transform: scale(1.05);
+    box-shadow:0 0 15px rgba(0, 123, 255, 0.5) ;
+}
+
+.club-card img {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 50%;
+    margin-bottom: 10px;
+    display: block;
+    margin: 0 auto;
+     
+
+}
+
+.explore-btn {
+    background: #007BFF;
+    color: white;
+    padding: 8px 15px;
+    border: none;
+    cursor: pointer;
+    margin-top: auto; /* Pushes the button to the bottom */
+    text-align: center;
+}
+
