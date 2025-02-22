@@ -79,6 +79,7 @@ footer {
 }
 .subscribe-btn:hover {
     transform: scale(1.05);
+    background: #0056b3;
 }
 
 /* Club Section */
@@ -134,5 +135,6 @@ footer {
 }
 .explore-btn:hover {
     transform: scale(1.1);
+    background: #0056b3;
 }
 
