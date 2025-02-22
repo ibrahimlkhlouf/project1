@@ -48,6 +48,8 @@ header {
     border: none;
     cursor: pointer;
     margin-left: 10px;
+    border-radius: 25px;
+    height: 50px;
 }
 .search-btn:hover {
     background: #0056b3;
@@ -135,9 +137,29 @@ footer {
     cursor: pointer;
     margin-top: auto; /* Pushes the button to the bottom */
     text-align: center;
+    border-radius: 50px;
 }
 .explore-btn:hover {
     transform: scale(1.1);
     background: #0056b3;
 }
+
+.glow {
+    filter: drop-shadow(0 0 10px blue);
+    transition: filter 0.3s ease;
+}
+.scrolled {
+    background: rgba(0, 0, 0, 0.8);
+    transition: background 0.3s ease-in-out;
+}
+.active {
+    transform: scale(1.1);
+    transition: transform 0.3s ease;
+}
+.fade-in {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
 
