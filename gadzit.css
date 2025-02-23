@@ -75,6 +75,10 @@ footer {
 .newsletter {
     background-attachment: fixed;
 }
+h2:hover {
+    filter: drop-shadow(0 0 10px blue);
+    transition: filter 0.3s ease;
+}
 
 .subscribe-btn {
     background: #007BFF;
