@@ -19,7 +19,6 @@ header {
     height: 50px;
     filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.5));
 }
-
 .search-bar {
     display: flex;
     align-items: center;
@@ -166,6 +165,50 @@ h2:hover {
     transform: translateY(20px);
     transition: opacity 1s ease-out, transform 1s ease-out;
 }
+/* Light Mode Styles */
+.light-mode {
+    background-color: #fff;
+    color: #000;
+    background: radial-gradient(circle at bottom, #1e3a8a, white);
+
+}
+
+.light-mode header {
+    background: gray;
+}
+
+.light-mode .search-btn {
+    background: #0056b3;
+}
+
+.light-mode .search-btn:hover {
+    background: #003d80;
+}
+
+.light-mode footer {
+    background: gray;
+}
+.light-mode .club-card {
+    background: grey;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    width: 250px;
+    transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+    display: flex;
+    flex-direction: column;
+    
+    
+}
+.logo img {
+    transition: opacity 0.3s ease-in-out;
+}
+.light-mode .logo img {
+    height: 50px;
+    filter: drop-shadow(0 0 5px rgba(255, 255, 255, 0.925));
+}
+
+
 
 
 

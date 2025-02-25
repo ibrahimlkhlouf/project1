@@ -39,3 +39,4 @@ document.querySelector(".prev").addEventListener("click", function () {
         document.querySelectorAll(".slide").length;
     showSlide(index);
 });
+
